@@ -1,2 +1,9 @@
 # colorpicker
+
 Color picker
+
+Tiny project created by <a href="http://autiomaa.org/" title="Link to personal website" target="_blank" role="link" rel="noopener">Daniel Schildt</a> (<a href="https://twitter.com/autiomaa" title="@autiomaa on Twitter" target="_blank" role="link" rel="noopener noreferrer">@autiomaa on Twitter</a>, <a href="https://codepen.io/d2s/" title="@d2s on CodePen" target="_blank" role="link" rel="noopener noreferrer">@d2s on CodePen</a>).<br>
+      CSS Grid based on the <a href="https://gridbyexample.com/patterns/header-asmany-footer/" title="Article: Header, footer, centre panel containing as many items as fit" target="_blank" role="link" rel="noopener noreferrer">Grid by Example</a> article written by <a href="https://codepen.io/rachelandrew/" title="@rachelandrew on CodePen" target="_blank" role="link" rel="noopener noreferrer">Rachel Andrew</a>.<br>
+      Color list inspired by the Web Colors section of <a href="https://www.rapidtables.com/web/color/index.html" title="Link to Web Colors section" target="_blank" role="link" rel="noopener noreferrer">RapidTables</a> website.<br>
+      <a href="https://clipboardjs.com/" title="Link to Clipboard.js website" target="_blank" role="link" rel="noopener noreferrer">clipboard.js</a> functionality based on an <a href="https://codepen.io/chriscoyier/pen/bBBLRE" title="CodePen example: Simplest Possible Clipboard.js" target="_blank" role="link" rel="noopener noreferrer">example</a> from Chris Coyier.<br>
+      Clipboard idea learned from the <a href="https://www.atlassian.design/server/foundations/colors/" title="Colors | Foundations" target="_blank" role="link" rel="noopener noreferrer">Atlassian Design Guidelines</a>.
