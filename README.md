@@ -6,7 +6,7 @@ Tiny project created by <a href="http://autiomaa.org/" title="Link to personal w
 
 ## Why this was made?
 
-Idea behind of the project was to create a placeholder example that could be used as a tool for future Design Systems projects. There are various color picker tools, but I felt that this could be a way to make them better for more specific use cases. For example, when a product/service/company has list of preferred colors, it helps to make those more easily available for the potential users.
+Idea behind of the project was to create a placeholder example that could be used as a tool for future Design Systems projects. There are various color picker tools, but I felt that this could be a way to make them better for more specific use cases. For example, when a product/service/company has list of preferred colors, it helps to make those available for the potential users.
 
 ## Thanks to people
 
