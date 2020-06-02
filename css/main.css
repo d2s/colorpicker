@@ -1,6 +1,7 @@
 /*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -105,7 +106,10 @@ textarea {
    ========================================================================== */
 
 body {
-  --common-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, 'Open Sans', 'sans-serif', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --common-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
+    "Open Sans", "sans-serif", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
 
   min-height: 100vh;
   scroll-behavior: smooth;
@@ -131,7 +135,6 @@ h1 > span {
   text-transform: none;
 }
 
-
 p {
   margin: 0 0 1em 0;
 }
@@ -142,7 +145,6 @@ p {
   display: grid;
   grid-gap: 10px;
 }
-
 
 /* no grid support? */
 
@@ -173,17 +175,13 @@ p {
 .panel:hover,
 .panel:focus {
   border-color: black;
-  border-width: .25ex;
+  border-width: 0.25ex;
 }
 
 .panel:active {
   border-color: red;
-  border-width: .5ex;
+  border-width: 0.5ex;
 }
-
-
-
-
 
 .header,
 .footer {
@@ -204,7 +202,6 @@ p {
   vertical-align: center;
 }
 
-
 /* We need to set the margin used on flex items to 0 as we have gaps in grid.  */
 
 @supports (display: grid) {
@@ -218,9 +215,6 @@ p {
   background-color: inherit;
   color: black;
 }
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -379,7 +373,7 @@ p {
   thead {
     display: table-header-group;
   }
-  
+
   tr,
   img {
     page-break-inside: avoid;

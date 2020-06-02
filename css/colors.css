@@ -78,7 +78,6 @@
   color: white;
 }
 
-
 .aliceblue {
   background-color: aliceblue;
   color: black;
@@ -189,15 +188,10 @@
   color: white;
 }
 
-
-
-
-
 .lightcyan {
   background-color: lightcyan;
   color: black;
 }
-
 
 .cyan,
 .aqua {
@@ -255,8 +249,6 @@
   background-color: teal;
   color: white;
 }
-
-
 
 .lawngreen {
   background-color: lawngreen;
@@ -358,8 +350,6 @@
   color: white;
 }
 
-
-
 .maroon {
   background-color: maroon;
   color: white;
@@ -385,8 +375,6 @@
   color: white;
 }
 
-
-
 .coral {
   background-color: coral;
   color: black;
@@ -402,8 +390,6 @@
   color: black;
 }
 
-
-
 .gold {
   background-color: gold;
   color: black;
@@ -418,8 +404,6 @@
   background-color: darkorange;
   color: black;
 }
-
-
 
 .pink {
   background-color: pink;
@@ -521,9 +505,6 @@
   color: white;
 }
 
-
-
-
 .lightsalmon {
   background-color: lightsalmon;
   color: black;
@@ -553,9 +534,6 @@
   background-color: red;
   color: black;
 }
-
-
-
 
 .snow {
   background-color: snow;
@@ -637,9 +615,6 @@
   color: black;
 }
 
-
-
-
 .lightyellow {
   background-color: lightyellow;
   color: black;
@@ -690,8 +665,6 @@
   color: black;
 }
 
-
-
 .tan {
   background-color: tan;
   color: black;
@@ -701,4 +674,3 @@
   background-color: burlywood;
   color: black;
 }
-
