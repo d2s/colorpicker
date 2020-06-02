@@ -4,7 +4,7 @@
 
 Tiny project created by <a href="http://autiomaa.org/" title="Link to personal website" target="_blank" role="link" rel="noopener">Daniel Schildt</a> (<a href="https://twitter.com/autiomaa" title="@autiomaa on Twitter" target="_blank" role="link" rel="noopener noreferrer">@autiomaa on Twitter</a>, <a href="https://github.com/d2s" title="@d2s on GitHub" target="_blank" role="link" rel="noopener noreferrer">@d2s on GitHub</a>, <a href="https://codepen.io/d2s/" title="@d2s on CodePen" target="_blank" role="link" rel="noopener noreferrer">@d2s on CodePen</a>).<br>
 
-## Why this was made?
+## Why this was created
 
 Idea behind of the project was to create a placeholder example that could be used as a tool for future Design Systems projects. There are various color picker tools, but I felt that this could be a way to make them better for more specific use cases. For example, when a product/service/company has list of preferred colors, it helps to make those available for the potential users.
 
