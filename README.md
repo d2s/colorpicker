@@ -15,5 +15,3 @@ CSS Grid based on the <a href="https://gridbyexample.com/patterns/header-asmany-
 Color list inspired by the Web Colors section of <a href="https://www.rapidtables.com/web/color/index.html" title="Link to Web Colors section" target="_blank" role="link" rel="noopener noreferrer">RapidTables</a> website.<br>
 
 <a href="https://clipboardjs.com/" title="Link to Clipboard.js website" target="_blank" role="link" rel="noopener noreferrer">clipboard.js</a> functionality based on an <a href="https://codepen.io/chriscoyier/pen/bBBLRE" title="CodePen example: Simplest Possible Clipboard.js" target="_blank" role="link" rel="noopener noreferrer">example</a> from Chris Coyier.<br>
-
-Clipboard idea learned from the <a href="https://www.atlassian.design/server/foundations/colors/" title="Colors | Foundations" target="_blank" role="link" rel="noopener noreferrer">Atlassian Design Guidelines</a>.
