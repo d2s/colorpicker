@@ -131,7 +131,7 @@ h1 {
 }
 
 h1 > span {
-  font-size: 20px;
+  font-size: 1rem;
   text-transform: none;
 }
 
@@ -165,7 +165,6 @@ p {
   color: #fff;
   border-radius: 5px;
   padding: 5px;
-  font-size: 100%;
   margin-bottom: 10px;
   text-align: center;
   vertical-align: center;
@@ -220,6 +219,10 @@ p {
   padding-top: 50px;
   background-color: inherit;
   color: black;
+}
+
+button {
+  font-size: 1rem;
 }
 
 /* ==========================================================================
