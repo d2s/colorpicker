@@ -160,6 +160,17 @@ p {
   grid-auto-rows: minmax(60px, auto);
 }
 
+.wrapper > * {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+  vertical-align: center;
+}
+
 .panel {
   display: flex;
   align-items: center;
@@ -191,15 +202,10 @@ p {
   grid-column: 1 / -1;
 }
 
-.wrapper > * {
-  background-color: #444;
-  color: #fff;
-  border-radius: 3px;
-  padding: 5px;
-  font-size: 100%;
-  margin-bottom: 10px;
-  text-align: center;
-  vertical-align: center;
+.header {
+  border-radius: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 /* We need to set the margin used on flex items to 0 as we have gaps in grid.  */
