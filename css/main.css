@@ -22,6 +22,8 @@ html {
   color: #000;
   font-size: 1em;
   line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /*
@@ -118,8 +120,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: var(--common-font-family);
-  background-color: lightgray;
-  text-shadow: 0 0 2px darkgray;
+  background-color: #000;
+  color: #fff;
 }
 
 h1 {
@@ -137,6 +139,18 @@ h1 > span {
 
 p {
   margin: 0 0 1em 0;
+}
+
+a {
+  color: #eee;
+  letter-spacing: 0.015ex;
+}
+
+a:hover,
+a:focus,
+a::selection {
+  color: #000;
+  background: #fff;
 }
 
 .wrapper {
@@ -218,7 +232,6 @@ p {
 .footer {
   padding-top: 50px;
   background-color: inherit;
-  color: black;
 }
 
 button {
