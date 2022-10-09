@@ -1,0 +1,39 @@
+/*
+  https://github.com/rsms/inter/blob/master/LICENSE.txt
+
+  Copyright (c) 2016-2020 The Inter Project Authors.
+  "Inter" is trademark of Rasmus Andersson.
+  https://github.com/rsms/inter
+
+  This Font Software is licensed under the SIL Open Font License, Version 1.1.
+*/
+
+/* --------------------------------------------------------------------------
+  Single variable font.
+
+  Note that you may want to do something like this to make sure you're serving
+  constant fonts to older browsers:
+
+  html {
+    font-family: 'Inter UI', sans-serif;
+  }
+  @supports (font-variation-settings: normal) {
+    html {
+      font-family: 'Inter UI var', sans-serif;
+    }
+  }
+
+  */
+
+@font-face {
+  font-family: "Inter UI";
+  font-weight: 100 900;
+  font-style: oblique 0deg 10deg;
+  src: url("/fonts/inter/3.19/Inter.var.woff2") format("woff2");
+
+  /*
+    - Improve PageSpeed results by changing font loading.
+      - More details: https://web.dev/font-display/
+  */
+  font-display: swap;
+}
