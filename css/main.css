@@ -108,10 +108,10 @@ textarea {
    ========================================================================== */
 
 body {
-  --common-font-family: "Inter UI", -apple-system, system-ui, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
-    Helvetica, Arial, "Open Sans", "sans-serif", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol";
+  --common-font-family: "Inter UI var", "Inter UI", -apple-system, system-ui,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    "Helvetica Neue", Helvetica, Arial, "Open Sans", "sans-serif", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
   min-height: 100vh;
   scroll-behavior: smooth;
