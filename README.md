@@ -2,7 +2,7 @@
 
 [Color picker](https://colorpicker.autiomaa.org/) for making it easier to see & copy common color names.
 
-Tiny project created by <a href="http://autiomaa.org/" title="Link to personal website" target="_blank" role="link" rel="noopener">Daniel Schildt</a> (<a href="https://twitter.com/autiomaa" title="@autiomaa on Twitter" target="_blank" role="link" rel="noopener noreferrer">@autiomaa on Twitter</a>, <a href="https://github.com/d2s" title="@d2s on GitHub" target="_blank" role="link" rel="noopener noreferrer">@d2s on GitHub</a>, <a href="https://codepen.io/d2s/" title="@d2s on CodePen" target="_blank" role="link" rel="noopener noreferrer">@d2s on CodePen</a>).<br>
+Tiny project created by <a href="http://autiomaa.org/" title="Link to personal website" role="link" rel="noopener">Daniel Schildt</a> (<a href="https://twitter.com/autiomaa" title="@autiomaa on Twitter" role="link" rel="noopener noreferrer">@autiomaa on Twitter</a>, <a href="https://github.com/d2s" title="@d2s on GitHub" role="link" rel="noopener noreferrer">@d2s on GitHub</a>, <a href="https://codepen.io/d2s/" title="@d2s on CodePen" role="link" rel="noopener noreferrer">@d2s on CodePen</a>).<br>
 
 ## Why this was created
 
@@ -10,8 +10,7 @@ Idea behind of the project was to create a placeholder example that could be use
 
 ## Thanks to people
 
-CSS Grid based on the <a href="https://gridbyexample.com/patterns/header-asmany-footer/" title="Article: Header, footer, centre panel containing as many items as fit" target="_blank" role="link" rel="noopener noreferrer">Grid by Example</a> article written by <a href="https://codepen.io/rachelandrew/" title="@rachelandrew on CodePen" target="_blank" role="link" rel="noopener noreferrer">Rachel Andrew</a>.
-
-Color list inspired by the Web Colors section of <a href="https://www.rapidtables.com/web/color/index.html" title="Link to Web Colors section" target="_blank" role="link" rel="noopener noreferrer">RapidTables</a> website.<br>
-
-<a href="https://clipboardjs.com/" title="Link to Clipboard.js website" target="_blank" role="link" rel="noopener noreferrer">clipboard.js</a> functionality based on an <a href="https://codepen.io/chriscoyier/pen/bBBLRE" title="CodePen example: Simplest Possible Clipboard.js" target="_blank" role="link" rel="noopener noreferrer">example</a> from Chris Coyier.<br>
+- CSS Grid based on the <a href="https://gridbyexample.com/patterns/header-asmany-footer/" title="Article: Header, footer, centre panel containing as many items as fit" role="link" rel="noopener noreferrer">Grid by Example</a> article written by <a href="https://codepen.io/rachelandrew/" title="@rachelandrew on CodePen" role="link" rel="noopener noreferrer">Rachel Andrew</a>.
+- Color list inspired by the Web Colors section of <a href="https://www.rapidtables.com/web/color/index.html" title="Link to Web Colors section" role="link" rel="noopener noreferrer">RapidTables</a> website.<br>
+- <a href="https://clipboardjs.com/" title="Link to clipboard.js website" role="link" rel="noopener noreferrer">Clipboard.js</a> functionality based on an <a href="https://codepen.io/chriscoyier/pen/bBBLRE" title="CodePen example: Simplest Possible Clipboard.js" role="link" rel="noopener noreferrer">example</a> from Chris Coyier.<br>
+- <a href="https://rsms.me/inter/" role="link" rel="noopener noreferrer">Inter</a> font typeface from <a href="https://rsms.me/" role="link" rel="noopener noreferrer">Rasmus Andersson</a>.
