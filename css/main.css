@@ -234,9 +234,9 @@ a::selection {
 }
 
 button {
-  font-size: 1rem;
-  letter-spacing: 0.05ex;
-  font-weight: 600;
+  font-size: 0.9rem;
+  /* letter-spacing: 0.05ex; */
+  font-weight: 500;
 }
 
 /* ==========================================================================
