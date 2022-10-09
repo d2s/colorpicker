@@ -124,7 +124,7 @@ body {
   font-variant-ligatures: common-ligatures contextual;
   font-feature-settings: "kern", "liga", "clig", "calt", "tnum", "ccmp", "zero",
     "onum" 1;
-  background-color: #000;
+  background-color: #111;
   color: #fff;
   min-height: 100vh;
 }
