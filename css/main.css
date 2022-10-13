@@ -199,6 +199,10 @@ a::selection {
   vertical-align: center;
 }
 
+button:hover {
+  border: 1rem;
+}
+
 .panel {
   display: flex;
   align-items: center;
@@ -254,10 +258,6 @@ button {
   font-size: 0.95rem;
   /* letter-spacing: 0.05ex; */
   font-weight: 500;
-}
-
-button:hover {
-  border: 1rem white;
 }
 
 /* ==========================================================================
