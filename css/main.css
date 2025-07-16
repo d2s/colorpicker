@@ -77,7 +77,6 @@ video {
 /*
  * Remove default fieldset styles.
  */
-
 fieldset {
   border: 0;
   margin: 0;
@@ -136,20 +135,20 @@ h1 {
   line-height: 1.2rem;
   text-transform: uppercase;
   letter-spacing: -0.03ex;
-}
 
-h1 > span {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 0;
-  text-transform: none;
-  letter-spacing: -0.05ex;
-}
+  & > span {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 0;
+    text-transform: none;
+    letter-spacing: -0.05ex;
+  }
 
-h1 + p {
-  line-height: 1.2rem;
-  letter-spacing: -0.05ex;
-  padding-top: 0.4rem;
+  & + p {
+    line-height: 1.2rem;
+    letter-spacing: -0.05ex;
+    padding-top: 0.4rem;
+  }
 }
 
 p {
@@ -159,44 +158,34 @@ p {
 a {
   color: #eee;
   letter-spacing: 0.015ex;
-}
 
-a:hover,
-a:focus,
-a::selection {
-  color: #000;
-  background: #fff;
+  &:hover,
+  &:focus,
+  &::selection {
+    color: #000;
+    background: #fff;
+  }
 }
 
 .wrapper {
+  display: grid;
   max-width: 940px;
   margin: 0 20px;
   display: grid;
   grid-gap: 10px;
-}
-
-/* no grid support? */
-
-.wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.wrapper {
-  display: grid;
   margin: 0 auto;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-auto-rows: minmax(60px, auto);
-}
 
-.wrapper > * {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
-  padding: 5px;
-  margin-bottom: 10px;
-  text-align: center;
-  vertical-align: center;
+  & > * {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    vertical-align: center;
+  }
 }
 
 button:hover {
@@ -207,22 +196,21 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* needed for the flex layout*/
   margin-left: 5px;
   margin-right: 5px;
   flex: 1 1 150px;
   border: 0.25ex solid #111;
-}
 
-.panel:hover,
-.panel:focus {
-  border-color: black;
-  border-width: 0.25ex;
-}
+  &:hover,
+  &:focus {
+    border-color: black;
+    border-width: 0.25ex;
+  }
 
-.panel:active {
-  border-color: red;
-  border-width: 0.5ex;
+  &:active {
+    border-color: red;
+    border-width: 0.5ex;
+  }
 }
 
 .header,
@@ -256,7 +244,6 @@ button:hover {
 
 button {
   font-size: 0.95rem;
-  /* letter-spacing: 0.05ex; */
   font-weight: 500;
 }
 
@@ -267,7 +254,6 @@ button {
 /*
  * Hide visually and from screen readers
  */
-
 .hidden {
   display: none !important;
 }
@@ -280,7 +266,6 @@ button {
 *    causes content to wrap 1 word per line:
 *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
 */
-
 .sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -299,48 +284,24 @@ button {
 * to be focusable when navigated to via the keyboard:
 * https://www.drupal.org/node/897638
 */
-
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
+.sr-only.focusable {
+  &:active,
+  &:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    white-space: inherit;
+    width: auto;
+  }
 }
 
 /*
 * Hide visually and from screen readers, but maintain layout
 */
-
 .invisible {
   visibility: hidden;
-}
-
-/*
-* Clearfix: contain floats
-*
-* For modern browsers
-* 1. The space content is one way to avoid an Opera bug when the
-*    `contenteditable` attribute is included anywhere else in the document.
-*    Otherwise it causes space to appear at the top and bottom of elements
-*    that receive the `clearfix` class.
-* 2. The use of `table` rather than `block` is only necessary if using
-*    `:before` to contain the top-margins of child elements.
-*/
-
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-
-.clearfix:after {
-  clear: both;
 }
 
 /* ==========================================================================
